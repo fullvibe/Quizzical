@@ -1,0 +1,147 @@
+body {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+}
+.container__title {
+  font-size: 38px;
+  text-align: center;
+  color: rgb(99, 1, 99);
+  font-weight: 800;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.form__row {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+}
+.form__text {
+  width: 200px;
+  font-size: 18px;
+  color: rgb(99, 1, 99);
+}
+.form__input {
+  width: 200px;
+  font-size: 18px;
+  border: 1px solid rgb(99, 1, 99);
+  border-radius: 10px;
+  text-align: center;
+}
+.form__select {
+  width: 200px;
+  font-size: 18px;
+  border: 1px solid rgb(99, 1, 99);
+  border-radius: 10px;
+  height: 29px;
+}
+.form__btn {
+  width: 100%;
+  background-color: rgb(99, 1, 99);
+  color: white;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+.questions {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.questions__body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.question {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+.question__text {
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(99, 1, 99);
+}
+.question__answers {
+  display: flex;
+  gap: 10px;
+}
+.answer {
+  border: 1px solid rgb(99, 1, 99);
+  border-radius: 10px;
+  text-align: center;
+  padding: 5px 5px;
+  background-color: white;
+  font-size: 15px;
+  color: rgb(99, 1, 99);
+  transition: all 0.3s ease 0s;
+}
+.true{
+  background-color: rgba(0, 128, 0, 0.589);
+  color: white;
+}
+.false{
+  background-color: rgba(255, 0, 0, 0.658);
+  color: white;
+}
+.select{
+  background-color: rgb(99, 1, 99);
+  color: white;
+}
+.questions__result {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.bottom__text {
+  font-size: 18px;
+  color: rgb(99, 1, 99);
+  font-weight: 500;
+}
+.bottom__btn {
+  border-radius: 10px;
+  background-color: rgb(99, 1, 99);
+  color: white;
+  padding: 10px 30px;
+  font-size: 18px;
+}
+.questions__check {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.check__btn {
+    background-color: rgb(99, 1, 99);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.check__btn:disabled {
+    background-color: gray;
+}
+.hide{
+    display: none;
+}
+.questions__container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
